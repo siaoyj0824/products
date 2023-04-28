@@ -9,5 +9,3 @@ while  Ture:
 	p.append(price)
 	products.append(name)
 print(products)
-
-products[0][0]
