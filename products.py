@@ -4,8 +4,5 @@ while  Ture:
 	if name == 'q':
 		break
 	price = input('請輸入商品價格:')
-	p = [] #小清單 
-	p.append(name) #小清單裡裝的東西
-	p.append(price)
-	products.append(name)
+	products.append([name, price])
 print(products)
